@@ -4,7 +4,7 @@ podTemplate(containers: [containerTemplate(name: 'maven', image: 'maven', comman
     container('maven') {
       sh 'mvn -B -ntp -Dmaven.test.failure.ignore verify'
     }
- //basa
+ //basa vTeste
     
     junit '**/target/surefire-reports/TEST-*.xml'
   }
