@@ -5,7 +5,7 @@ podTemplate(containers: [containerTemplate(name: 'maven', image: 'maven', comman
       sh 'mvn -B -ntp -Dmaven.test.failure.ignore verify'
     }
  //teste basa - commit novo
-    //fdjfjf teste glaucco
+    //fdjfjf teste glaucco...
     
     junit '**/target/surefire-reports/TEST-*.xml'
   }
